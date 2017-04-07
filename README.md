@@ -11,8 +11,8 @@
 
 3. 添加代码:
  
-    NSArray *vcsArray_sel= @[@"tabbar_home_selected_os7",@"tabbar_home_selected_os7",@"tabbar_home_selected_os7",@"tabbar_home_selected_os7",@"tabbar_home_selected_os7",@"tabbar_home_selected_os7",@"tabbar_home_selected_os7"];
-    NSArray *vcsArray = @[@"tabbar_home",@"tabbar_home",@"tabbar_home",@"tabbar_home",@"tabbar_home",@"tabbar_home",@"tabbar_home"];
+    NSArray *images_sel= @[@"tabbar_home_selected_os7",@"tabbar_home_selected_os7",@"tabbar_home_selected_os7",@"tabbar_home_selected_os7",@"tabbar_home_selected_os7",@"tabbar_home_selected_os7",@"tabbar_home_selected_os7"];
+    NSArray *images = @[@"tabbar_home",@"tabbar_home",@"tabbar_home",@"tabbar_home",@"tabbar_home",@"tabbar_home",@"tabbar_home"];
     NSArray *titleArray = @[@"反倒是但是",@"法施工方丰",@"给对方",@"法",@"给对",@"法施工方丰",@"给对方功夫"];
     
    ///配置各种数据 (支持自适应宽度 固定宽度  可带图片 并且可设置图片和文字的位置)
@@ -22,8 +22,8 @@
     config.normalTitleColor = [UIColor grayColor];
     config.selectedTitleColor = [UIColor orangeColor];
     config.titleArr = titleArray;
-    config.normalImageArr = vcsArray;
-    config.selectedImageArr = vcsArray_sel;
+    config.normalImageArr = images;
+    config.selectedImageArr = images_sel;
     
     //config.bottomWidthScale = 0.6;
     //config.fixOptionWidth = 150;
