@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  OneViewController.h
 //  MenuOption
 //
 //  Created by fanxiaobin on 2017/4/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface OneViewController : UIViewController
 
 @end
-

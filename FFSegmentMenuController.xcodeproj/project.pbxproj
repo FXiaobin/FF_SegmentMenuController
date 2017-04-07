@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		186E33E31E97909700B83155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E33E21E97909700B83155 /* main.m */; };
 		186E33E61E97909700B83155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E33E51E97909700B83155 /* AppDelegate.m */; };
-		186E33E91E97909700B83155 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E33E81E97909700B83155 /* ViewController.m */; };
 		186E33EC1E97909700B83155 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186E33EA1E97909700B83155 /* Main.storyboard */; };
 		186E33EE1E97909700B83155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186E33ED1E97909700B83155 /* Assets.xcassets */; };
 		186E33F11E97909700B83155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186E33EF1E97909700B83155 /* LaunchScreen.storyboard */; };
+		186E33FF1E9790A300B83155 /* FFOptionPagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E33FA1E9790A300B83155 /* FFOptionPagerView.m */; };
+		186E34001E9790A300B83155 /* FFTopOptionTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E33FC1E9790A300B83155 /* FFTopOptionTagView.m */; };
+		186E34011E9790A300B83155 /* UIButton+EdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E33FE1E9790A300B83155 /* UIButton+EdgeInsets.m */; };
+		186E34061E9790B800B83155 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E34031E9790B800B83155 /* OneViewController.m */; };
+		186E34071E9790B800B83155 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186E34051E9790B800B83155 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +24,20 @@
 		186E33E21E97909700B83155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		186E33E41E97909700B83155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		186E33E51E97909700B83155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		186E33E71E97909700B83155 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		186E33E81E97909700B83155 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		186E33EB1E97909700B83155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		186E33ED1E97909700B83155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		186E33F01E97909700B83155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		186E33F21E97909700B83155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		186E33F91E9790A300B83155 /* FFOptionPagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFOptionPagerView.h; sourceTree = "<group>"; };
+		186E33FA1E9790A300B83155 /* FFOptionPagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFOptionPagerView.m; sourceTree = "<group>"; };
+		186E33FB1E9790A300B83155 /* FFTopOptionTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTopOptionTagView.h; sourceTree = "<group>"; };
+		186E33FC1E9790A300B83155 /* FFTopOptionTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTopOptionTagView.m; sourceTree = "<group>"; };
+		186E33FD1E9790A300B83155 /* UIButton+EdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EdgeInsets.h"; sourceTree = "<group>"; };
+		186E33FE1E9790A300B83155 /* UIButton+EdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EdgeInsets.m"; sourceTree = "<group>"; };
+		186E34021E9790B800B83155 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		186E34031E9790B800B83155 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		186E34041E9790B800B83155 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		186E34051E9790B800B83155 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +70,13 @@
 		186E33E01E97909700B83155 /* FFSegmentMenuController */ = {
 			isa = PBXGroup;
 			children = (
+				186E33F81E9790A300B83155 /* FFOptionMenuView */,
 				186E33E41E97909700B83155 /* AppDelegate.h */,
 				186E33E51E97909700B83155 /* AppDelegate.m */,
-				186E33E71E97909700B83155 /* ViewController.h */,
-				186E33E81E97909700B83155 /* ViewController.m */,
+				186E34021E9790B800B83155 /* OneViewController.h */,
+				186E34031E9790B800B83155 /* OneViewController.m */,
+				186E34041E9790B800B83155 /* ViewController.h */,
+				186E34051E9790B800B83155 /* ViewController.m */,
 				186E33EA1E97909700B83155 /* Main.storyboard */,
 				186E33ED1E97909700B83155 /* Assets.xcassets */,
 				186E33EF1E97909700B83155 /* LaunchScreen.storyboard */,
@@ -77,6 +92,19 @@
 				186E33E21E97909700B83155 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		186E33F81E9790A300B83155 /* FFOptionMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				186E33F91E9790A300B83155 /* FFOptionPagerView.h */,
+				186E33FA1E9790A300B83155 /* FFOptionPagerView.m */,
+				186E33FB1E9790A300B83155 /* FFTopOptionTagView.h */,
+				186E33FC1E9790A300B83155 /* FFTopOptionTagView.m */,
+				186E33FD1E9790A300B83155 /* UIButton+EdgeInsets.h */,
+				186E33FE1E9790A300B83155 /* UIButton+EdgeInsets.m */,
+			);
+			path = FFOptionMenuView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +178,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186E33E91E97909700B83155 /* ViewController.m in Sources */,
+				186E34071E9790B800B83155 /* ViewController.m in Sources */,
+				186E34011E9790A300B83155 /* UIButton+EdgeInsets.m in Sources */,
+				186E34001E9790A300B83155 /* FFTopOptionTagView.m in Sources */,
+				186E33FF1E9790A300B83155 /* FFOptionPagerView.m in Sources */,
+				186E34061E9790B800B83155 /* OneViewController.m in Sources */,
 				186E33E61E97909700B83155 /* AppDelegate.m in Sources */,
 				186E33E31E97909700B83155 /* main.m in Sources */,
 			);
