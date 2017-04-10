@@ -1,6 +1,8 @@
 # FFSegmentMenuController
 类似网易新闻 今日头条等新闻客户端顶部导航菜单
 
+屏幕快照 2017-04-10 上午10.45.27
+
 使用方法:
 
 1. 拖入FFOptionMenuView文件夹
